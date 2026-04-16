@@ -105,46 +105,33 @@ button {
 /* NAVBAR */
 /* ========================= */
 .navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #5a0000;
-  padding: 10px;
   position: sticky;
   top: 0;
+  background-color: #5a0000;
+  padding: 18px 0; 
   z-index: 1000;
 }
 
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
+/* MENU TENGAH */
+.nav-center {
+  text-align: center;
 }
 
-.menu li {
-  list-style: none;
-}
-
-.menu li a {
+.nav-center a {
+  margin: 0 25px;
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 18px; 
 }
 
 /* SEARCH */
 .search {
   position: absolute;
   right: 20px;
-  padding: 5px;
+  top: 15px;
+  padding: 8px 10px;
   border-radius: 5px;
   border: none;
-}
-
-/* VIEWS */
-.meta {
-  font-size: 12px;
-  color: #ccc;
-  margin: 5px 0;
+  font-size: 14px;
 }
