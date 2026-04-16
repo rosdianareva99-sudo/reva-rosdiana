@@ -102,10 +102,8 @@ button {
 }
 
 /* ========================= */
-/* TAMBAHAN NAVBAR + VIEWS */
-/* ========================= */
-
 /* NAVBAR */
+/* ========================= */
 .navbar {
   display: flex;
   justify-content: center;
@@ -123,6 +121,10 @@ button {
   gap: 30px;
   margin: 0;
   padding: 0;
+}
+
+.menu li {
+  list-style: none;
 }
 
 .menu li a {
