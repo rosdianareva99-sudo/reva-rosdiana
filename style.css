@@ -100,3 +100,49 @@ button {
   margin-top: 20px;
   color: white;
 }
+
+/* ========================= */
+/* TAMBAHAN NAVBAR + VIEWS */
+/* ========================= */
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5a0000;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* SEARCH */
+.search {
+  position: absolute;
+  right: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* VIEWS */
+.meta {
+  font-size: 12px;
+  color: #ccc;
+  margin: 5px 0;
+}
